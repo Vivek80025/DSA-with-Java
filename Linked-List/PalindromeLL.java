@@ -73,10 +73,10 @@ public class PalindromeLL{
 	public static void main(String[] args){
 		PalindromeLL list = new PalindromeLL();
 		list.insertAtEnd(1);
-		list.insertAtEnd(2);
-		list.insertAtEnd(3);
+		list.insertAtEnd(1);
 		list.insertAtEnd(2);
 		list.insertAtEnd(1);
+		// list.insertAtEnd(1);
 		list.display();
 		System.out.println(list.checkPalindrome());
 	}

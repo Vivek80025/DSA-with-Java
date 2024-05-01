@@ -2,7 +2,7 @@
 //space complexity:O(1)
 import java.util.*;
 public class MissingNumber{
-	public void missingNumber(int[] arr){
+	public static void missingNumber(int[] arr){
 		int n = arr.length + 1;
 		int sum = (n * (n + 1))/2;
 		for(int i=0;i<arr.length;i++){
@@ -19,7 +19,6 @@ public class MissingNumber{
 		for(int i=0;i<n;i++){
 			arr[i] = sc.nextInt();
 		}
-		MissingNumber obj = new MissingNumber();
-		obj.missingNumber(arr);
+		missingNumber(arr);
 	}
 }
